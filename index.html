@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>On Click</title>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Dojonary</h1>
+      <input type="text" id="search" />
+      <button class="btn login" onclick="logout()">Login</button>
+    </div>
+    <div class="container">
+      <div class="col-2">
+        <div class="card">
+          <div class="card-left">
+            <h1>ninja</h1>
+            <p>noun</p>
+            <p>Plural: ninjas</p>
+            <button class="btn like" onclick="alerta()">13 likes</button>
+          </div>
+          <div class="card-right">
+            <p>
+              A practitioner skilled in the <a href="">Japanese</a> art of
+              <a href=""></a>ninjutsu
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-left">
+            <h1>ninja</h1>
+            <p>noun</p>
+            <p>Plural: ninjas</p>
+            <button class="btn like" onclick="alerta()">37 likes</button>
+          </div>
+          <div class="card-right">
+            <p>
+              Aprogrammer who breaks down problems with <a href="">zen</a>-like
+              focus
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-defined">
+            <h3>Dojonary is</h3>
+            <h3>defined by YOU</h3>
+            <button class="btn definition" onclick="remover(this)">Add Definition</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

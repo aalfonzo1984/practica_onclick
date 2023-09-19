@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display:flex;
+}
+
+.nav-links,
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  height: 80px;
+  background-color: #cccccc;
+}
+
+#search {
+  width: 400px;
+  height: 25px;
+}
+
+.col {
+  flex: 1;
+  margin: 20px 10px;
+}
+
+.col-2 {
+  flex: 2;
+  margin: 20px 10px;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.card-left,
+.card-right {
+  text-align: center;
+}
+
+.card-left {
+  margin: 15px;
+}
+
+.card-right {
+  width: 50%;
+  margin: 40px;
+  text-align: justify;
+}
+
+.card-defined{
+padding: 10px;
+}
+
+.btn {
+  margin: 15px;
+  padding: 5px 15px;
+  border-style: solid;
+  box-shadow: 3px 3px black;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.btn.login{
+    background-color: #2B78E4;
+    color: white;
+}
+
+.btn.like{
+    background-color: #FFD966;
+}
+
+.btn.definition{
+    background-color: #93C47D;
+}
